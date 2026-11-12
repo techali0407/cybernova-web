@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | CyberNova</title>
+  <meta name="description" content="Web development, AI integration, Python automation and security-first builds by CyberNova.">
+  <meta name="theme-color" content="#0b0716">
+  <meta name="color-scheme" content="dark">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="pages.css">
+  <script>document.documentElement.classList.add('js');setTimeout(function(){if(!window.__cnReady)document.documentElement.classList.remove('js')},2500);</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <canvas id="stars" aria-hidden="true"></canvas>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <header class="site-header" id="header">
+    <div class="wrap nav">
+      <a href="index.html" class="brand" aria-label="CyberNova home"><img src="logo-icon.png" alt="" width="38" height="38"><span class="brand-text">Cyber<b>Nova</b></span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+      <nav id="menu" class="menu" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="services.html" class="active" aria-current="page">Services</a>
+        <a href="work.html">Work</a>
+        <a href="about.html">About</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html" class="btn btn-gold btn-sm">Get a Quote</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="wrap reveal">
+        <div class="crumbs"><a href="index.html">Home</a><i class="fa-solid fa-chevron-right"></i><span>Services</span></div>
+        <span class="tag">What we do</span>
+        <h1>Services built around <span class="grad">your goals</span></h1>
+        <p>From a simple business site to an AI assistant that talks to your customers.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:20px">
+      <div class="wrap">
+        <div class="cards">
+          <article class="card reveal">
+            <div class="icon"><i class="fa-solid fa-laptop-code"></i></div>
+            <h3>Web Development</h3>
+            <p>Fast, responsive websites and full stack web apps with clean code and modern design.</p>
+            <ul><li>Business &amp; portfolio sites</li><li>Landing pages</li><li>Dashboards &amp; web apps</li></ul>
+          </article>
+          <article class="card reveal" style="--d:.08s">
+            <div class="icon"><i class="fa-solid fa-brain"></i></div>
+            <h3>AI Integration</h3>
+            <p>LLM-powered chatbots and assistants wired into your website or product.</p>
+            <ul><li>Customer support chatbots</li><li>E-commerce assistants</li><li>Voice &amp; text assistants</li></ul>
+          </article>
+          <article class="card reveal" style="--d:.16s">
+            <div class="icon"><i class="fa-brands fa-python"></i></div>
+            <h3>Python Automation</h3>
+            <p>Tools and scripts that remove repetitive work and connect your apps together.</p>
+            <ul><li>Task &amp; data automation</li><li>API integrations</li><li>Custom desktop tools</li></ul>
+          </article>
+          <article class="card reveal" style="--d:.24s">
+            <div class="icon"><i class="fa-solid fa-user-shield"></i></div>
+            <h3>Security-First Build</h3>
+            <p>Everything is built with safe defaults, so your users and data stay protected.</p>
+            <ul><li>Input validation</li><li>Safe authentication</li><li>Secure deployment basics</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section alt">
+      <div class="wrap">
+        <header class="sec-head reveal">
+          <span class="tag">How we work</span>
+          <h2>A simple, clear process</h2>
+          <p>You always know what is happening and what comes next.</p>
+        </header>
+        <ol class="steps">
+          <li class="step reveal"><span class="num">01</span><h3>Discover</h3><p>We talk about your idea, audience and goals.</p></li>
+          <li class="step reveal" style="--d:.08s"><span class="num">02</span><h3>Design</h3><p>A royal, clean layout planned for mobile and desktop.</p></li>
+          <li class="step reveal" style="--d:.16s"><span class="num">03</span><h3>Build</h3><p>Code, AI features and backend, tested on real devices.</p></li>
+          <li class="step reveal" style="--d:.24s"><span class="num">04</span><h3>Launch &amp; Support</h3><p>Deployment, handover and help after go-live.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <header class="sec-head reveal"><span class="tag">Tech stack</span><h2>Tools we build with</h2></header>
+        <ul class="tech-grid reveal">
+          <li><i class="fa-brands fa-html5"></i>HTML5</li>
+          <li><i class="fa-brands fa-css3-alt"></i>CSS3</li>
+          <li><i class="fa-brands fa-js"></i>JavaScript</li>
+          <li><i class="fa-brands fa-bootstrap"></i>Bootstrap</li>
+          <li><i class="fa-brands fa-python"></i>Python</li>
+          <li><i class="fa-solid fa-robot"></i>LLM APIs</li>
+          <li><i class="fa-solid fa-server"></i>REST APIs</li>
+          <li><i class="fa-brands fa-github"></i>Git &amp; GitHub</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <header class="sec-head reveal"><span class="tag">Packages</span><h2>Pick a starting point</h2><p>Every project is scoped individually. We quote after a quick chat.</p></header>
+        <div class="packages">
+          <article class="pack reveal"><span class="pk-tag">Starter</span><h3>Landing page / Portfolio</h3><ul><li>1–3 pages</li><li>Mobile-first design</li><li>Contact form</li><li>Deployment help</li></ul><a href="contact.html" class="btn btn-ghost btn-block">Get a quote</a></article>
+          <article class="pack featured reveal" style="--d:.08s"><span class="pop">Most popular</span><span class="pk-tag">Business</span><h3>Full business website</h3><ul><li>Multi-page custom design</li><li>Animations &amp; polish</li><li>Contact &amp; WhatsApp integration</li><li>Performance tuned</li><li>Post-launch support</li></ul><a href="contact.html" class="btn btn-gold btn-block">Get a quote</a></article>
+          <article class="pack reveal" style="--d:.16s"><span class="pk-tag">AI &amp; Custom</span><h3>AI + web apps</h3><ul><li>Chatbot / assistant integration</li><li>Backend &amp; APIs</li><li>Python automation</li><li>Security review</li></ul><a href="contact.html" class="btn btn-ghost btn-block">Get a quote</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="wrap narrow">
+        <div class="cta-band reveal">
+          <h2>Ready to start?</h2>
+          <p>Send a short description of your idea and we will reply with next steps.</p>
+          <div class="cta"><a href="contact.html" class="btn btn-gold"><i class="fa-solid fa-paper-plane"></i> Get a Quote</a><a href="work.html" class="btn btn-ghost"><i class="fa-solid fa-eye"></i> See Our Work</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-grid">
+      <div class="f-brand">
+        <a href="index.html" class="brand"><img src="logo-icon.png" alt="" width="34" height="34"><span class="brand-text">Cyber<b>Nova</b></span></a>
+        <p>Web &amp; AI solutions studio from Karachi, Pakistan. Responsive websites, AI assistants and automation, built secure from day one.</p>
+        <div class="socials">
+          <a data-gh href="https://github.com/YOUR_USERNAME" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a data-wa href="https://wa.me/923132779458" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a data-mail href="mailto:techali0407@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+      <nav class="f-col" aria-label="Pages"><h4>Pages</h4><a href="index.html">Home</a><a href="services.html">Services</a><a href="work.html">Work</a><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a></nav>
+      <div class="f-col"><h4>Services</h4><a href="services.html">Web Development</a><a href="services.html">AI Integration</a><a href="services.html">Python Automation</a><a href="services.html">Security-First Build</a></div>
+      <div class="f-col"><h4>Get in touch</h4><a href="contact.html">Start a project</a><a data-wa href="https://wa.me/923132779458" target="_blank" rel="noopener noreferrer">WhatsApp chat</a><span><i class="fa-solid fa-location-dot"></i> Karachi, Pakistan</span></div>
+    </div>
+    <div class="wrap copy"><p>© <span data-year>2026</span> CyberNova — Web &amp; AI Solutions. All rights reserved.</p></div>
+  </footer>
+
+  <a href="#main" class="to-top" id="toTop" aria-label="Back to top"><i class="fa-solid fa-chevron-up"></i></a>
+  <a data-wa href="https://wa.me/923132779458" class="wa-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+  <script src="script.js"></script>
+</body>
+</html>

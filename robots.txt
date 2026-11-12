@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://techali0407.github.io/cybernova/sitemap.xml
+Sitemap: https://techali0407.github.io/cybernova-web/sitemap.xml
